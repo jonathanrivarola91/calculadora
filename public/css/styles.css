@@ -1,0 +1,49 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+}
+.fondo{
+    height: 100%;
+}
+.calculadora{
+    border: 1px solid black;
+    background-color: rgb(112, 16, 16);
+    border-radius: 5px;
+    width: 500px;
+    height: 555px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+.pantalla{
+    border: 1px solid rgb(143, 143, 143);
+    background-color: rgb(73, 0, 0);
+    border-radius: 5px;
+    width: 100%;
+    height: 180px;
+}
+.botones .operacion{
+    background-color: rgb(165, 75, 75);
+    width: 100%;
+    height: 50px;
+    border: 1px solid silver;
+    margin-top: 20px;
+    color: white;
+}
+.botones .borrar{
+    position: absolute;
+    height: 120px;
+    width: 97px;
+}
+.botones .igual{
+    position: absolute;
+    font-weight: 700;
+    font-size: 26px;
+    height: 120px;
+    width: 97px;
+}
