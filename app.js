@@ -1,1 +1,0 @@
-let jony = "jony"
